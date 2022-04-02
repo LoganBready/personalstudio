@@ -1,0 +1,42 @@
+{
+  "name": "personalstudio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Logan B <logan.bready@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity start",
+    "start": "sanity start",
+    "build": "sanity build",
+    "eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "eslint:fix": "eslint --cache --fix '**/*.{js,jsx,ts,tsx}'",
+    "prettier:check": "prettier --check --ignore-unknown",
+    "prettier:write": "prettier --write --ignore-unknown"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.29.3",
+    "@sanity/core": "^2.29.3",
+    "@sanity/dashboard": "^2.29.3",
+    "@sanity/default-layout": "^2.29.3",
+    "@sanity/default-login": "^2.29.3",
+    "@sanity/desk-tool": "^2.29.4",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.29.3",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.3.1",
+    "sanity-plugin-media": "^1.4.4",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.29.3",
+    "prettier": "^2.6.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "editor.detectIndentation": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "cSpell.language": "en_US, lorem",
+    "cSpell.ignoreWords": [
+      "parens",
+      "stylelint",
+      "webm",
+      "webp"
+    ],
+    "cSpell.words": [
+      "bgvot"
+    ],
+  }
